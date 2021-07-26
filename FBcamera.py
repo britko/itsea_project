@@ -46,9 +46,9 @@ while True:
 
 
         ## 결과 이미지 출력
-        final_frame = cv2.vconcat([warped_img_F,warped_img_B_flip])
         # cv2.imshow('bird-eye-view1', cv2.cvtColor(warped_img_F, cv2.COLOR_BGR2RGB))
         # cv2.imshow('bird-eye-view2', cv2.cvtColor(warped_img_B_flip, cv2.COLOR_BGR2RGB))
+        final_frame = cv2.vconcat([warped_img_F,warped_img_B_flip])
         cv2.imshow('birds-eye-view', cv2.cvtColor(final_frame, cv2.COLOR_BGR2RGB))
 
         # q 누르면 종료
