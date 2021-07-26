@@ -150,6 +150,8 @@ cython_debug/
 !.vscode/extensions.json
 *.code-workspace
 
+Pipfile.lock
+
 # Local History for Visual Studio Code
 .history/
 
