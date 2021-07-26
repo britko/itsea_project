@@ -48,11 +48,6 @@ while True:
         
         # 결과 출력 ---③
         cv2.imshow('bird-eye-view', img)
-        # cv2.imshow('bird-eye-view', img)
-        
-    # k == cv2.ord('q') & 0xFF
-    # if k == 27:
-    # 	break
 
         # q 누르면 종료
         if cv2.waitKey(10) & 0xFF == ord('q'):
